@@ -1,0 +1,8 @@
+startup_message  off
+defscrollback 10000
+#hardstatus alwayslastline "%{kw} %c  %{b}%H%{k}  < %-w%{wb} %n  %t %{-}%+w >"
+caption always "%{kw} %c  %{b}%H%{k}  < %-w%{wb} %n  %t %{-}%+w >"
+# Needed to have a login shell
+shell zsh
+shelltitle user
+
